@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+<%- include("partials/nav.ejs") %>
+<div id="contactsection" style="margin-top:0px; height:100vh; padding-bottom:0px;">
+    <form id ="form"  action="/contact" method="post">
+      <div class="mb-3" >
+        <label for="exampleInputEmail1" class="form-label" >Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off" required>
+        
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      
+      <button type="submit" class="btn btn-primary" >Submit</button>
+    </form>
+  </div>
+  <%- include("partials/footer.ejs") %>
+  

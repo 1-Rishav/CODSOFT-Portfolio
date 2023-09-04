@@ -1,0 +1,164 @@
+<%- include("partials/header.ejs") %>
+  <%- include("partials/nav.ejs") %>
+
+    <!-- Home -->
+    <div class="main">
+      <div class="intro">
+        <h2>Hello, It's Me</h2>
+        <h1>Rishav Raj</h1>
+        <h1>And I'm a <span class="text"></span></h1>
+        <p style="margin-right:4.7rem;">Welcome to my corner of the internet! I'm Rishav Raj, a passionate and driven
+          Web-Developer and Programmer . With a blend of creativity and expertise, I strive to be a professional
+          Web-Developer and master in DSA , craft visually stunning designs that communicate powerful narratives or
+          develop innovative software solutions that solve real-world challenges.</p>
+      </div>
+      <img class="raj" src="images/raj.jpg" width="500px" height="500px" alt="image of candidate">
+      <div class="icon">
+        <a href="https://github.com/1-Rishav" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/rishav-raj-ab2893253/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://twitter.com/11Rishav" target="_blank"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <a href="/about2" target="_blank" class="btn-box">More About Me</a>
+    </div>
+    <!-- Skill -->
+    <div id="skillsection">
+      <div class="skillcontainer">
+        <h1 class="skill">My Skills</h1>
+      </div>
+      <div class="interest">
+        <p>Welcome to my skills page! Here, you'll find a comprehensive list of the abilities I've cultivated throughout
+          my journey as a Web-Developer and Programmer. These skills empower me to excel in various aspects of my work
+          and contribute meaningfully to every project I take on.</p>
+      </div>
+
+
+      <div class="slider">
+
+        <div>
+          <h1>Html</h1>
+          <div class="container">
+            <input class="volume" min="0" max="100" value="90%">
+          </div>
+        </div>
+
+        <div>
+          <h1>Css</h1>
+          <div class="container">
+            <input class="volume" min="0" max="100" value="85%">
+          </div>
+        </div>
+
+        <div>
+          <h1>Javascript</h1>
+          <div class="container">
+
+            <input class="volume" min="0" max="100" value="70%">
+          </div>
+        </div>
+        <div>
+          <h1>MERN</h1>
+          <div class="container">
+
+            <input class="volume" min="0" max="100" value="65%">
+          </div>
+        </div>
+
+        <div>
+          <h1>Java</h1>
+          <div class="container">
+
+            <input class="volume" min="0" max="100" value="50%">
+          </div>
+        </div>
+
+
+        <div>
+          <h1>C++</h1>
+          <div class="container">
+
+            <input class="volume" min="0" max="100" value="60%">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Projects -->
+    <div id="projectsection">
+      <div class="project">
+        <h1>Projects</h1>
+      </div>
+
+      <p class="projectpara">Welcome to my project showcase! Here, you'll find a selection of projects that highlight my
+        skills, creativity, and dedication to delivering exceptional results. Each project represents a unique challenge
+        I've tackled, showcasing my ability to bring ideas to life and create impactful solutions.</p>
+
+      <div id="madeproject">
+        <div class="card" style="width: 20rem;">
+          <a href="https://github.com/1-Rishav/ToDo-List" target="_blank"><img src="images/Todo.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text">TO-DO List Web Application</p>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <a href="https://github.com/1-Rishav/Blog-Website" target="_blank"><img src="images/Blog.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text">Blog Web-Application</p>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <a href="https://github.com/1-Rishav/Hospital-Database-Centralization" target="_blank"><img src="images/Hospital.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text">Hospital Database Centralization Web-Application</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Achievements -->
+    <div id="achievementsection">
+      <div class="achieve">
+        <h1>Achievements</h1>
+      </div>
+      <p class="achievepara">Welcome to my achievements page, where I'm proud to share some of the significant
+        milestones and recognitions that have shaped my journey as a Web-Developer and Programmer. These accomplishments
+        reflect my dedication, perseverance, and the impact I've made in my field.</p>
+      <div id="achievement">
+        <div class="card" style="width: 20rem;">
+          <a href="/images/great.png" target="_blank"><img src="images/greatlogo.png" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text" style="color:black; margin-left:0px">Basics of Java</p>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <a href="/images/infosys.png" target="_blank"><img src="images/spring.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text" style="color:black; margin-left:0px;">Data Structures and Algorithms in Java</p>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <a href="/images/python.png" target="_blank"><img src="images/Moratuwa.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text" style="color:black; margin-left:0px;">Basics of Python</p>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contactsection">
+      <h1>Contact</h1>
+      <form id="form" action="/contact" method="post">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            autocomplete="off" required>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <%- include("partials/footer.ejs") %>
